@@ -1,7 +1,3 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +31,25 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.col-md-6 {
+  margin: 0 auto;
+  padding: 50px;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.card{
+  width: 22rem;
+  margin: 0 auto;
+}
+
+#listarInfoCard {
+  justify-content: flex-start;
+}
+
+#cardsInfo {
+  flex-basis: calc(33.33% - 10px);
+  margin: 5px;
 }

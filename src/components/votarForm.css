@@ -1,0 +1,46 @@
+/* Estilo del contenedor del formulario */
+.VotacionForm {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo del título del formulario */
+h3 {
+    color: #4a5568;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo del selector (dropdown) */
+select {
+    width: 60%;
+    padding: 10px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+/* Estilo del botón de votación */
+button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+/* Estilo del botón de votación al pasar el mouse */
+button:hover {
+    background-color: #45a049;
+}
+
+/* Estilo del botón de votación cuando está deshabilitado */
+button:disabled {
+    background-color: #ddd;
+    color: #999;
+    cursor: not-allowed;
+}

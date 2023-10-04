@@ -1,0 +1,27 @@
+/* Estilo del contenedor de la lista */
+.ListaC {
+    text-align: center;
+}
+
+/* Estilo del título de la lista */
+.ListaC h3 {
+    color: #4a5568;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Estilo de la lista de candidatos */
+.ListaC ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Estilo de los elementos de la lista */
+.ListaC li {
+    background-color: #f8f9fa;
+    margin: 8px 0;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+}
